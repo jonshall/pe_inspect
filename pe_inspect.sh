@@ -13,9 +13,6 @@ echo -e "
     *-------------------------------*
 "
 
-# Install dependencies
-./dependencies.sh
-
 # Ensure a filename was input
 if [ -z "${1}" ]
 then
